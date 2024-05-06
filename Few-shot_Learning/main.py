@@ -1,9 +1,9 @@
 from data_provider.data_factory import data_provider
 from utils.tools import EarlyStopping, adjust_learning_rate, visual, vali, test
 from tqdm import tqdm
-from models.PatchTST import PatchTST
+
 from models.GPT4TS import GPT4TS
-from models.DLinear import DLinear
+
 
 
 import numpy as np
